@@ -1,0 +1,6 @@
+python-dotenv
+confluent_kafka
+psycopg2-binary
+datetime
+pytest
+pylint
