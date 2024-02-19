@@ -23,17 +23,19 @@ In this folder you will find files required the run the pipeline.
 - `requirements.txt`
     - This file contains all the required modules to run the pipeline script.
     - This file can be run using "pip3 install -r requirements.txt"
+- `dashboard`
+    - This folder contains the dashboard wireframe for the data and a screenshot of a dashboard created using Tableau.
 
 ## Installation and Requirements
 It is recommended before stating any installations that you make a new virtual environment. This can be done through commands in order:
-- python3 -m venv venv
-- source ./venv/bin/activate
+- `python3 -m venv venv `
+- `source ./venv/bin/activate`
 
 Install all requirements for the pipeline using the command:
-pip3 install -r requirements.txt
+`pip3 install -r requirements.txt `
 
 Create a .env file using the command:
-touch .env
+`touch .env`
 
 Required .env variable:
 - DATABASE_NAME = The name of your database.
