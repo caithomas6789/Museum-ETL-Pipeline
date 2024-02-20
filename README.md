@@ -9,7 +9,7 @@ This project implements an ETL pipeline that includes loading the data from a Ka
 
 ## Files 🗂️
 
-In this folder you will find files required the run the pipeline.
+In this folder, you will find files required the run the pipeline.
 
 - `README.md`
     - This is the file you are currently reading.
@@ -25,6 +25,8 @@ In this folder you will find files required the run the pipeline.
     - This file can be run using "pip3 install -r requirements.txt"
 - `dashboard`
     - This folder contains the dashboard wireframe for the data and a screenshot of a dashboard created using Tableau.
+- `terraform`
+    - This folder contains the terraform script to create all required AWS services for this pipeline.
 
 ## Installation and Requirements
 It is recommended before stating any installations that you make a new virtual environment. This can be done through commands in order:
